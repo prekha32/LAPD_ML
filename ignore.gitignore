@@ -1,0 +1,2 @@
+# Ignore sensitive connection info
+db_config.py
