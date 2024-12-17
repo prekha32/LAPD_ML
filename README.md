@@ -2,17 +2,21 @@
 
 ## Overview
 
-This project focuses on analyzing and visualizing crime data from the Los Angeles Police Department (LAPD) using machine learning (ML). The objective is to uncover patterns, identify trends, and predict potential crime hotspots to provide actionable insights for improving public safety.
+The "Violent Crime Detection" project utilizes data-driven analysis to enhance public safety by pinpointing areas prone to criminal activity. Our goal is to support effective security measures and strengthen community protection.
+Machine Learning, with its advanced predictive capabilities, provides a powerful framework for addressing the complexities of crime hotspot identification and prevention.
+This presentation highlights Machine Learning, which focuses on leveraging predictive modeling and data insights to analyze and forecast crime trends in Los Angeles.
+.
 
 ---
 
 ## Problem Statement
 
 The LAPD crime dataset contains valuable information that can help:
-- Identify spatial and temporal trends in crime data.
-- Classify crime types based on location and time.
-- Predict potential crime-prone areas to assist in resource allocation and prevention.
-
+- Developed a machine learning model to predict violent crime trends in Los Angeles using LAPD data from 2020–2024.
+Performed comprehensive exploratory data analysis (EDA) to uncover patterns and relationships in the data, guiding feature selection and model design.
+- Build and evaluated models with balanced datasets, achieving 65% accuracy, and highlighted precision and recall metrics for crime prediction..
+- Utilize Microsoft Azure's PostgreSQL server for scalable, secure, and efficient data management.
+. Visualized key findings and predictions to provide actionable insights for improving public safety.
 ---
 
 ## Dataset
@@ -20,10 +24,10 @@ The LAPD crime dataset contains valuable information that can help:
 - **Source**: LAPD Crime data
 - **Records**: Contains over 100,000 records with attributes like crime type, time, location, and more.
 - **Key Features**: 
-  - Date and time of crime
-  - Type of crime
-  - Location coordinates (latitude and longitude)
-  - Neighborhood and division information
+  - Violent Crime
+  - Vict age
+  - Vict sex
+  - Victime Descent
 
 ---
 
@@ -34,12 +38,8 @@ The project utilizes the following tools and technologies:
 - **Python Libraries**:
   - Pandas: Data cleaning and manipulation.
   - Matplotlib: Visualization of crime trends.
-- **Web Technologies**:
-  - HTML/CSS/Bootstrap: User interface and presentation.
-  - JavaScript Plotly: Interactive visualizations.
 - **Databases**:
-  - PostgreSQL (hosted on Google Cloud SQL): Storing and querying crime data.
-
+  - PostgreSQL (hosted on Microsoft Azure ): Storing and querying crime data.
 ---
 
 ## Objectives
@@ -53,9 +53,6 @@ The project utilizes the following tools and technologies:
 3. **Visualization**:
    - Create interactive visualizations of crime trends using Plotly and Matplotlib.
    - Map crime hotspots using Leaflet.
-4. **Application Development**:
-   - Develop a user-friendly interface to present insights.
-
 ---
 
 ## Team Workflow
@@ -70,35 +67,15 @@ The project utilizes the following tools and technologies:
      - Data cleaning and preprocessing
      - Feature engineering
      - Model building and evaluation
-     - Visualization and front-end integration
-
-
-
-
-3. **Timeline**:
-   - Week 1: Data preparation, exploratory analysis, and ML model selection.
-   - Week 2: Model refinement, visualization creation, and final integration.
-
----
-
-## Challenges and Considerations
-
-- **Data Quality**: Address missing or inconsistent data.
-- **Model Accuracy**: Ensure the ML model provides meaningful predictions.
-- **Collaboration**: Maintain clear and regular communication within the team.
-- **Resource Management**: Monitor cloud resources to avoid excessive costs.
-
----
 
 ## Expected Outcomes
 
 - A trained ML model capable of classifying and predicting crime types.
-- Interactive visualizations highlighting crime trends and hotspots.
-- A comprehensive presentation showcasing the analysis, results, and future applications.
+- A comprehensive presentation showcasing the analysis and results.
 
 ---
 
 ## Contributors
 
-- Team Members: [List names here]
+- Team Members: [Jesus, Carl, Rekha, Kahan, Kuautli ]
 
