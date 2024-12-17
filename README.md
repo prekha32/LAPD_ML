@@ -12,9 +12,10 @@ This presentation highlights Machine Learning, which focuses on leveraging predi
 ## Problem Statement
 
 The LAPD crime dataset contains valuable information that can help:
-- Developed a machine learning model to predict violent crime trends in Los Angeles using LAPD data from 2020–2024.
-Performed comprehensive exploratory data analysis (EDA) to uncover patterns and relationships in the data, guiding feature selection and model design.
-- Build and evaluated models with balanced datasets, achieving 65% accuracy, and highlighted precision and recall metrics for crime prediction..
+- Develop a machine learning model to predict violent crime trends in Los Angeles using LAPD data from 2020–2024.
+- Perform comprehensive exploratory data analysis (EDA) to uncover patterns and relationships in the data, guiding feature selection and model 
+  design.
+- Build and evaluate models with balanced datasets, achieving 65% accuracy, and highlighted precision and recall metrics for crime prediction..
 - Utilize Microsoft Azure's PostgreSQL server for scalable, secure, and efficient data management.
 . Visualized key findings and predictions to provide actionable insights for improving public safety.
 ---
@@ -28,7 +29,6 @@ Performed comprehensive exploratory data analysis (EDA) to uncover patterns and 
   - Vict age
   - Vict sex
   - Victime Descent
-
 ---
 
 ## Technologies Used
